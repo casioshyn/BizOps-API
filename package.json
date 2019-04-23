@@ -1,0 +1,52 @@
+{
+  "name": "bizopsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cron": "^1.5.0",
+    "cssmin": "^0.4.3",
+    "dotenv": "^6.2.0",
+    "emailjs": "^2.2.0",
+    "express": "^4.16.4",
+    "express4-tedious": "^0.3.0",
+    "grunt": "^1.0.1",
+    "grunt-browser-output": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-livereload": "^0.1.2",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.5",
+    "method-override": "^3.0.0",
+    "min": "^0.1.17",
+    "mssql": "^4.2.2",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "request": "^2.83.0",
+    "tedious": "^3.0.1",
+    "tedious-connection-pool": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=10.14.1",
+    "npm": ">=6.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
